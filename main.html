@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicfy - Selector</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <!--importa iconos-->
+    <script src="https://kit.fontawesome.com/f07b04091a.js" crossorigin="anonymous"></script>
+    <script>
+        function navegar(){
+            window.location.href = 'player.html';
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="icono2" src="images/ico.png" alt="">
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <img class="icono" src="images/ico.png" alt="">
+            <div class="selector">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input ondblclick="navegar()" type="text" placeholder="Que vamos a escuchar?" img="images/ico.png">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
